@@ -1,0 +1,40 @@
+.NavDiv {
+  background-color: rgb(37, 98, 189);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+}
+.searchDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.searchBox {
+  width: 300px;
+  border: 0.5px solid rgb(119, 120, 121);
+  padding: 5px 15px;
+  outline: none;
+  border-radius: 50px;
+}
+.searchIcon {
+  background-color: white;
+  height: 27px;
+  position: absolute;
+  right: 8px;
+  top: 3px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.submitBtn{
+  border: none;
+}
